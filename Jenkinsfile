@@ -7,6 +7,7 @@ stages{
                 { echo 'test101'
                   sh 'mkdir test101'
                   sh 'touch test101/t1.txt'
+                  sh 'touch t3.txt'
                 }
         }
       }
